@@ -1,5 +1,5 @@
 ## Gaj
-implements the cpp-async library
+implements the cpp-async library focusing on the send|recieve & hub arichtecture
 
 ## How did I started & Why 🤔?
 At first when I started learning cpp I really much into unreal engine but at some point I paused on cpp and went with web-services; there I learnt Go & JS fundamentals.
