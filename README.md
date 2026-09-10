@@ -4,7 +4,7 @@ implements the cpp-async library focusing on the send|recieve & hub arichtecture
 ## How did I started & Why 🤔?
 At first when I started learning cpp I really much into unreal engine but at some point I paused on cpp and went with web-services; there I learnt Go & JS fundamentals.
 Go became my go-to cause I wanted something same as cpp; also with the motivation that I never lose the practice of c++.
-After a while, I came back to cpp trying to implement my Go's [Pie-Rum](#https://github.com/PaayasAkotkar/pie-rum) version in C++; but than I realize that I typically have to write the async programming the parllael commnucation and all.
+After a while, I came back to cpp trying to implement my Go's [pierum](#https://github.com/PaayasAkotkar/pie-rum) version in C++; but than I realize that I typically have to write the async programming the parllael commnucation and all.
 I learnt about CSP, Pie-Calculus stuffs to be honest I read the set's language of those 30% I understood while 30% been covered with the help of Ai.
 After that I still won't sure cause the agent both suggested queue also tho the runtime/channel.go also used the same pattern but again like I wanna have control over channel's.
 Like again after these much study;yet I was not able have a picture of archiecture for the pipeline; like once I thought a tunnel or channel providing the runaway for many vechincals at one time but again like this much is enough for the start but again I would like to utilize it in something.
