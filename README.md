@@ -1,5 +1,6 @@
 ## Gaj
 implements the cpp-async library focusing on the send|recieve & hub arichtecture
+the goal is to build the library in such a way that it can install with ease 
 
 ## How did I started & Why 🤔?
 At first when I started learning cpp I really much into unreal engine but at some point I paused on cpp and went with web-services; there I learnt Go & JS fundamentals.
@@ -43,7 +44,6 @@ when_all -> strict binding to function call; meaning perform this much and that'
 
 ## Note 📓
 - both when & when_all is based upon my solely written pipe.hpp where v2 is modified by ai-agent
-I mean v1 was horrible don't even ask 😅
 - The current writings was done on windows
 
 ## Walkthrough ✊
