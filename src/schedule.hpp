@@ -9,3 +9,7 @@
 
 // at this point I dont have that much knowdelge about ctx
 // the context will be helpful here builidng the schedule
+
+struct schedule {
+  
+};

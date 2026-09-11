@@ -1,5 +1,5 @@
 #include "queue"
-#include "x1.cpp"
+#include "async.hpp"
 #include <condition_variable>
 #include <cstdio>
 #include <iostream>
@@ -11,5 +11,8 @@
 using namespace std;
 void end() { std::cout << "end" << std::endl; }
 int main() {
-  pipe_example();
+  ctx ctx;
+  auto [_ctx,cancel] = ctx.with_cancel();
+  _ctx->close();
+  _ctx->done();
 }

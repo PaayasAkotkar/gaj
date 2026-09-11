@@ -48,7 +48,6 @@ protected:
         throw;
       }
     }
-
     ~sd() {
       if (elem) {
         value_traits::destroy(value_alloc, std::to_address(elem));

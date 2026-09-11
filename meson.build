@@ -1,6 +1,6 @@
 project('n','cpp',version:'1.0.0')
 
-inc = include_directories('src', 'example' )
+inc = include_directories('src','src/', 'example' )
 
 cpp_compiler = meson.get_compiler('cpp')
 
