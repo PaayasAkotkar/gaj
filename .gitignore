@@ -1,5 +1,5 @@
 build/
-src/
+src
 cpp_*
 main.cpp
 example/
