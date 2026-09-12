@@ -1,6 +1,2 @@
 build/
-cpp_*
-main.cpp
-pkg/
-server/
 /server/app.exe
