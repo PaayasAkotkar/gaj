@@ -1,4 +1,4 @@
 build/
 /server/app.exe
 pkg
-.cache
+.cache/

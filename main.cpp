@@ -20,5 +20,5 @@ using namespace std;
 void end() { std::cout << "end" << std::endl; }
 
 int main() {
-  gaj_example::http_example();
+  gaj_example::http_example(); // required server/main.go or any server you would like to run and connect
 }
