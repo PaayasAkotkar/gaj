@@ -1,10 +1,6 @@
 build/
-src
 cpp_*
 main.cpp
-example/
-HTTPRequest/
-meson.buil
-native.ini
 pkg/
 server/
+/server/app.exe
