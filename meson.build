@@ -1,4 +1,4 @@
-project('n','cpp',version:'1.0.0')
+project('gaj','cpp',version:'1.0.0')
 
 inc = include_directories('src','src/', 'example' )
 
