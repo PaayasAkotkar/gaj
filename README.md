@@ -11,13 +11,13 @@ pipe<int> p;
 auto id = p.send(12);
 auto val = p.recv();
 if (val) 
-    cout << "found: " << val.value() << endl; // returns 12
+    cout << "found= " << val.value() << endl; // returns 12
 // end
 
 // then
 then(()[auto v]{
     // returns 12
-    cout<<"value"<<v<<endl;}
+    cout<<"value= "<<v<<endl;}
     )(12);
 // end
 
@@ -26,7 +26,7 @@ then(()[auto v]{
 auto ch1=make_shared<pipe<int>>();
 ace(ch1,then(()[auto v]{
                 // returns 11
-    auto ch2=make_shared(pipe<int>);
+    cout<<"value= "<<v<<endl;
 }))
 ch1->send(11);
 // end
@@ -37,11 +37,11 @@ auto ch2=make_shared<pipe<int>>();
 select(
     ace(ch1,then(()[auto v]{
         // returns hey
-            cout<<"value"<<v<<endl
+            cout<<"value= "<<v<<endl
     })),
     ace(ch2,then(()[auto v]{
                 // returns 11
-            cout<<"value"<<v<<endl
+            cout<<"value= "<<v<<endl
     })),
 )
 ch1->send("hey");
