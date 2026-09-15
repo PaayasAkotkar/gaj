@@ -22,9 +22,9 @@ then(()[auto v]{
 // end
 
 
-// ace
+// qace
 auto ch1=make_shared<pipe<int>>();
-ace(ch1,then(()[auto v]{
+    qace(ch1,then(()[auto v]{
                 // returns 11
     cout<<"value= "<<v<<endl;
 }))
